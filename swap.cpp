@@ -8,14 +8,14 @@ int main()
     cin >> a >> b;
 
     cout << "The numbers" << endl;
-    cout << "a = " << a << ", b = " << b << endl;
+    cout << "a = " << a << " b = " << b << endl;
 
     temp = a;
     a = b;
     b = temp;
 
     cout << "After swapping the given numbers." << endl;
-    cout << "a = " << a << ", b = " << b << endl;
+    cout << "a = " << a << " b = " << b << endl;
 
     return 0;
 }
