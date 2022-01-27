@@ -4,16 +4,21 @@ using namespace std;
 
 int main()
 {
-    int firstNumber,
-        secondNumber, sumOfTwoNumbers;
 
+    int f, s, add, sub, mul;
+    float div;
     cout << "Enter two integers: ";
 
-    cin >> firstNumber >> secondNumber;
+    cin >> f >> s;
 
-    sumOfTwoNumbers = firstNumber + secondNumber;
-
-    cout << firstNumber << " + " << secondNumber << " = " << sumOfTwoNumbers << endl;
+    add = f + s;
+    sub = f - s;
+    mul = f * s;
+    div = f / (float)s;
+    cout << f << " + " << s << " = " << add << endl;
+    cout << f << " - " << s << " = " << sub << endl;
+    cout << f << " * " << s << " = " << mul << endl;
+    cout << f << " / " << s << " = " << div << endl;
 
     return 0;
 }
