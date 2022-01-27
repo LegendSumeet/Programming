@@ -19,8 +19,6 @@ int main()
        << " bytes" <<endl;
     cout << "Size of double : " << sizeof(double)
        << " bytes" << endl;
-    cout << "Size of wchar_t : " << sizeof(wchar_t)
-       << " bytes" <<endl;
      
     return 0;
 }
