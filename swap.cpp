@@ -3,16 +3,18 @@ using namespace std;
 
 int main()
 {
-    int a = 5, b = 10, temp;
+    int a, b, temp;
+    cout << "Enter the Numbers" << endl;
+    cin >> a >> b;
 
-    cout << "Before swapping." << endl;
+    cout << "The numbers" << endl;
     cout << "a = " << a << ", b = " << b << endl;
 
     temp = a;
     a = b;
     b = temp;
 
-    cout << "After swapping." << endl;
+    cout << "After swapping the given numbers." << endl;
     cout << "a = " << a << ", b = " << b << endl;
 
     return 0;
