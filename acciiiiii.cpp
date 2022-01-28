@@ -14,7 +14,7 @@ int main()
     string sumeet;
     cout << "Enter the word" << endl;
     cin >> sumeet;
-
+    cout<< sumeet << endl;
     cout << "The Ascii value is " << Ascii(sumeet) << endl;
     return 0;
 }
