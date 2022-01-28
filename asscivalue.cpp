@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
- char *s="hello";
- 
+ char *s;
+ cin>>*s;
+
  while(*s!='\0')
   {
   printf("%c --> %d\n",*s,*s);
