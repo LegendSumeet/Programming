@@ -2,19 +2,19 @@
 using namespace std;
 long long Ascii(string sumeet)
 {
-	long long prod = 1;
+	long long sumit = 1;
 
 	for (int i = 0; i < sumeet.length(); i++) {
-		prod *= (int)sumeet[i];
+		sumit *= (int)sumeet[i];
 	}
-	return prod;
+	return sumit;
 }
 int main()
 {
 	string sumeet;
+    cout<<"Enter the word"<<endl;
     cin>>sumeet;
 
-	cout << productAscii(sumeet);
-
-	return 0;
+	cout << Ascii(sumeet)<<endl;
+return 0;
 }
