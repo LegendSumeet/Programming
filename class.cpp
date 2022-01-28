@@ -34,3 +34,6 @@ int main()
     b.chkbin();
     return 0;
 }
+
+
+
