@@ -2,7 +2,7 @@
 using namespace std;
 
 class binary
-{  
+{
     string s;
 
 public:
@@ -34,6 +34,7 @@ void binary::ones(void)
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
+
         {
             s.at(i) = '1';
         }
