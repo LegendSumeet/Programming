@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int number;
@@ -7,5 +8,4 @@ int main()
     cin >> number;
     cout << "number : "<< number << endl;
 }
-
 
