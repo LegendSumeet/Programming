@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     int n, sum = 0, m;
-    cin >> n;
-    while (n > 0)
+    cin >> n; 0
+    while (n >)
     {
         m = n % 10;
         sum = sum + m;
