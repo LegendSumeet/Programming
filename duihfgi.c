@@ -1,19 +1,28 @@
 #include <stdio.h>
 int main()
 {
-    int sum[5];
-    printf("Enter the numbers\n");
-    for (int i = 0; i < 5; i++)
-    {
+    printf("Enter ");
 
-        scanf("%d", &sum[i]);
-    }
-    int lum = 0;
-    int irfan = sizeof(lum) / sizeof(sum[0]);
-    for (int j = 0; j < 5; j++)
+    int arr[5], j, i;
+
+    for (j = 0; j < 5; j++)
     {
-        lum = lum + sum[j];
+        scanf("%d", &arr[j]);
     }
 
-    printf("%d", lum);
+    for (i = 0; i < 5; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            printf("%d ", arr[i]);
+        }
+    }
+    printf("negative");
+    for (i = 0; i < 5; i++)
+    {
+        if (arr[i] % 3 == 0)
+        {
+            printf("%d ", arr[i]);
+        }
+    }
 }

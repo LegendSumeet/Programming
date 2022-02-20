@@ -1,15 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-  int sum [5];
-   printf("Enter thre numbers\n");
-   for(int i=0;i<5;i++)
-   {
-     scanf("%d",&sum[i]);
-   }
-   for(int i=0;i<5;i++)
-   {
-     printf("%d\n",sum[i]);
-   }
-    return 0;
+  int sum[3][2];
+  printf("Enter thre numbers\n");
+  for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 2; j++)
+    {
+      scanf("%d", &sum[i][j]);
+    }
+  }
+    for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 2; j++)
+    {
+      printf("%d", sum[i][j]);
+    }
+  }
+
+
+
+
+return 0;
 }
